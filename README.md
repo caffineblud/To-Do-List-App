@@ -1,24 +1,50 @@
-# To-Do List GUI App
+<div align="center">
 
-***A simple and beginner-friendly To-Do List application built using Python and Tkinter.***
+# ✅ To-Do List GUI App
 
-## Features:
+A modern and beginner-friendly desktop task manager built with **Python** and **Tkinter**.
 
-- Add tasks
-- Mark tasks as completed
-- Delete tasks
-- Persistent task storage using JSON
-- Simple and clean GUI
+Organize your daily tasks, track progress, and maintain productivity with a clean graphical interface and persistent task storage.
 
-## Technologies Used:
+![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
+![Tkinter](https://img.shields.io/badge/Tkinter-GUI-green?style=for-the-badge)
+![JSON](https://img.shields.io/badge/Storage-JSON-orange?style=for-the-badge)
 
-- Python
-- Tkinter
-- JSON
-- File I/O
+</div>
 
-## Project Structure:
-```bash
+---
+
+## 📖 Overview
+
+The To-Do List GUI App is a simple desktop application designed to help users manage daily tasks efficiently.
+
+Tasks are automatically saved using JSON-based storage, ensuring that your data remains available even after closing the application.
+
+This project is ideal for beginners looking to learn:
+
+* GUI Development with Tkinter
+* File Handling in Python
+* JSON Data Storage
+* Object-Oriented Programming
+* Modular Project Structure
+
+---
+
+## ✨ Features
+
+* ➕ Add new tasks
+* ✅ Mark tasks as completed
+* 🗑️ Delete tasks
+* 💾 Automatic task saving
+* 📂 Persistent JSON storage
+* 🖥️ Simple and intuitive GUI
+* 🚀 Lightweight and beginner-friendly
+
+---
+
+## 🏗️ Project Structure
+
+```text
 todo-list-gui/
 │
 ├── main.py
@@ -34,19 +60,94 @@ todo-list-gui/
 │
 ├── utils/
 │   └── file_handler.py
+│
+└── screenshots/
+    └── home.png
 ```
-## Run the Project:
-```python
+
+---
+
+## 🛠️ Technologies Used
+
+| Technology | Purpose                   |
+| ---------- | ------------------------- |
+| Python     | Core Programming Language |
+| Tkinter    | GUI Development           |
+| JSON       | Task Storage              |
+| File I/O   | Data Persistence          |
+
+---
+
+## 🚀 Getting Started
+
+### Clone the Repository
+
+```bash
+git clone https://github.com/caffineblud/todo-list-gui.git
+```
+
+### Navigate to the Project Folder
+
+```bash
+cd todo-list-gui
+```
+
+### Run the Application
+
+```bash
 python main.py
 ```
-## Future Improvements:
 
-- Dark mode
-- Due dates
-- Task priorities
-- Search functionality
-- Database integration
+---
 
-## Author:
+## 🎯 Learning Outcomes
 
-***Yash Kr Singh***
+This project demonstrates:
+
+* Building desktop applications with Tkinter
+* Creating modular Python projects
+* Working with JSON files
+* Reading and writing data using File I/O
+* Managing application state
+
+---
+
+## 🔮 Future Improvements
+
+* 🌙 Dark Mode Support
+* 📅 Due Dates & Deadlines
+* ⭐ Task Priorities
+* 🔍 Search & Filter Tasks
+* 📊 Progress Tracking
+* 🗄️ SQLite Database Integration
+* ☁️ Cloud Backup & Sync
+
+---
+
+## 👨‍💻 Author
+
+**Yash Kumar Singh**
+
+GitHub: https://github.com/caffineblud
+
+---
+
+## 🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push to your branch
+5. Open a Pull Request
+
+---
+
+## ⭐ Support
+
+If you found this project useful, consider giving it a star.
+
+**⭐ Star the repository to support the project.**
+
+</div>
